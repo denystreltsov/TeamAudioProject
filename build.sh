@@ -1,0 +1,1 @@
+clang libdeniaudio.c -o libdeniaudio.so -std=c11 -lsndfile -lportaudio -I/usr/local/Cellar/libsndfile/1.1.0/include -I/usr/local/Cellar/portaudio/19.7.0/include -logg -lFLAC -lvorbis -lvorbisenc -lopus -fPIC --shared
